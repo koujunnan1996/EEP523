@@ -64,7 +64,13 @@ class MainActivity : AppCompatActivity(), BLEControl.Callback {
     //and obtain the average
     override fun onRSSIread(uart:BLEControl,rssi:Int){
         rssiAverage = rssi.toDouble()
+        println("$rssiAverage")
+        if (rssiAverage < -60.0) {
+            ble!!.send("phone_lost")
+            Log.i("BLE", "send alarm")
+        }
         writeLine("RSSI $rssiAverage")
+
     }
     fun getRSSI (v:View){
         ble!!.getRSSI()

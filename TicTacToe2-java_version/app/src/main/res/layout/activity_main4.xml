@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/text_view_p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player can choose the icon as X or O then the second player is O or X. If the player does not choose the icon and start the game directly Then player_1 will choose icon randomly,the Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled. If one side's winning streak is ended, the first order of chess will be exchanged. In the event that no one has three in a row, the stalemate is called a cat game."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

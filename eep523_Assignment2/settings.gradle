@@ -1,0 +1,2 @@
+rootProject.name='eep523_Assignment2'
+include ':app'

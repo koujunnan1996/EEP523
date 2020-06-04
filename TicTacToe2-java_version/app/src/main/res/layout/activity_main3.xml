@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/text_view_p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1 choose icon: if the Player 1 choose X icon, Player 2 automatically selects the O icon, vice versa"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:freezesText="true"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Player_choose_X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="icon Choose: X"
+        android:textColor="@color/colorPrimaryDark"/>/>
+
+    <Button
+        android:id="@+id/Player_choose_O"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/Player_choose_X"
+        android:text="icon Choose: O"
+        android:textColor="@color/colorPrimaryDark"/>/>
+
+</RelativeLayout>

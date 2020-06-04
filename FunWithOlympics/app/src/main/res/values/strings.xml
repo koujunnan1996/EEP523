@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FunWithOlympics</string>
+
+    <string name="sport_name_artswimming">ARTISTIC SWIMMING</string>
+    <string name="details_artswimming">    The sport was developed further by Katherine Curtis, who had the idea of combining water acrobatics with music.
+        Her students performed at the 1933-34 Chicago "Century of Progress"
+        Fair, where the announcer, former Olympic swimming gold medallist Norman Ross, coined the term "synchronised swimming".>
+    </string>
+
+    <string name="sport_name_beachvolley">BEACH VOLLEYBALL</string>
+    <string name="details_beachvolley"> Interestingly, beach volleyball really took off in the United States during the 1930s,
+        perhaps as a little light relief from the Great Depression. The first official two-man tournament took place in 1947, and the first beach volleyball circuit, involving hundreds of players and five California beaches, began in the 1950s.>
+    </string>
+
+    <string name="sport_name_modernpentalon">MODERN PENTHALON</string>
+    <string name="details_modernpentalon"> The modern pentathlon was introduced by Baron de Coubertin at the Stockholm Games in 1912, comprising pistol shooting, fencing, swimming, horse riding and running. It was his belief that this event would test “a man’s moral qualities as much as his physical resources and skills, producing thereby a complete athlete.”>
+    </string>
+
+    <string name="sport_name_luge">LUGE</string>
+    <string name="details_luge">    Luge is the French word for “sledge” and, like bobsleigh, it was developed as a sport in Switzerland. Its roots go back to the 16th century, but it was not until 300 years later that the first luge tracks were built by Swiss hotel owners to cater for thrill-seeking tourists.>
+    </string>
+
+
+</resources>
+

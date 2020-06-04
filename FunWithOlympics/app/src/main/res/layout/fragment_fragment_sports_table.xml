@@ -1,0 +1,106 @@
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click a Sport to learn more" android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20sp"/>
+
+            <TableLayout
+                    android:id="@+id/table_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_weight="1">
+                <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/artswimming"
+                            android:layout_weight="1"
+                            android:src="@drawable/artswimming"
+                            android:tag="Artistic Swimming"
+                            />
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/beachvolley"
+                            android:layout_weight="1"
+                            android:src="@drawable/beachvolley"
+                            android:tag="Beach Volley"/>
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/modernpentalon"
+                            android:layout_weight="1"
+                            android:src="@drawable/modernpentalon"
+                            android:tag="Moder Penthalon"/>
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/luge"
+                            android:layout_weight="1"
+                            android:src="@drawable/luge"
+                            android:tag="Luge"/>
+                </TableRow>
+
+
+                <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/sportclimb"
+                            android:layout_weight="1"
+                            android:src="@drawable/sportclimb"
+                            android:tag="Sport Climb"/>
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/rugby"
+                            android:tag="Rugby"/>
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/mswimming"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:tag="Marathon Swimming"/>
+
+                    <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/bobsleigh"
+                            android:tag="Bobsleigh"/>
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+
