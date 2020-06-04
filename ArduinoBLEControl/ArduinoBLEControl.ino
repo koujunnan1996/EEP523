@@ -31,7 +31,7 @@ String readtemp = "readtemp";
 String stp = "stop";
 String no = "no";
 String ok = "ok";
-String lost = "phone_lost";
+String lost = "alarm";
 int  sensorTemp = 0;
 
 //parameters to detect the door openning
