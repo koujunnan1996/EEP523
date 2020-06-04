@@ -35,7 +35,7 @@ String lost = "phone_lost";
 int  sensorTemp = 0;
 
 //parameters to detect the door openning
-float threshold = 10.1;
+float threshold = 1000.0;
 unsigned long shakeInterval = 3000;
 float startAccelMag = 0;
 unsigned long lastShakeTime = 0;
@@ -174,7 +174,7 @@ void openDetect(){
         }
       char output1[8];
       String data1 = "2";
-      data.toCharArray(output1,8);
+      data1.toCharArray(output1,8);
       ble.print(data1);
       while(true){
         CircuitPlayground.playTone(1000, 100);
@@ -334,12 +334,20 @@ void loop(void)
     delay(10);
 
    //Send data to Android Device
-    char output[8];
-    String data = "";
-    data += sensorTemp;
-    Serial.println(data);
-    data.toCharArray(output,8);
-    ble.print(data);
+  //  char output[8];
+    if (sensorTemp > 29.0){
+      char output[8];
+      String data = "3";
+      data.toCharArray(output,8);
+      ble.print(data);
+    }
+    else{
+      char output[8];
+      String data = "1";
+      data.toCharArray(output,8);
+      ble.print(data);
+    }
+
   }
  
   else if (stp == received){
